@@ -29,9 +29,6 @@ export default class App extends Component {
     // </div>
     <div className="celebs">
       <h1>Celebs</h1>
-    
-  
-      
       {this.state.celebrities.map(celebrities => 
       <ul key={celebrities.id}> 
         <img src={"https://image.tmdb.org/t/p/w185"+celebrities.profile_path} class="profPicture" alt="profile"/>
